@@ -1,0 +1,76 @@
+/* BASIC PAGE SETUP */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background: #f4f4f4;
+    line-height: 1.6;
+    color: #222;
+}
+
+/* NAME AT TOP */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+/* CONTACT LINE UNDER NAME */
+body > p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #444;
+}
+
+/* MAIN SECTIONS */
+.about,
+.skills,
+.projects {
+    background: #fff;
+    width: 80%;
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.12);
+}
+
+/* SECTION HEADERS (Education, Work Experience, etc.) */
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 6px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+/* JOB TITLES (Delivery Driver, Warehouse Assistant, etc.) */
+h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+}
+
+h4 {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* LISTS OF BULLET POINTS */
+ul {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* SEPARATION BETWEEN EXPERIENCE SECTIONS */
+.project {
+    margin-bottom: 30px;
+}
